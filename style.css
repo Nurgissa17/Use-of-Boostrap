@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.task {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.task h1 {
+    font-size: 24px;
+}
+/* Task 0 */
+.typography h2 {
+    font-size: 36px;
+}
+.typography p {
+    font-size: 20px;
+}
+/* Task 1 */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+}
+/* Task 2 */
+.bootstrap-column {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+}
+/* Task 3 and Task 4 */
+.navbar {
+    padding: 10px;
+    border: 2px solid black;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+/* Task 4 */
+.portfolio-main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portfolio-title {
+    font-size: 30px;
+}
+.project-card {
+    padding: 15px;
+    border: 2px solid black;
+}
+.project-card h3 {
+    font-size: 22px;
+}
+.sidebar {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 15px;
+}
+.footer {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.footer p {
+    margin: 0;
+}
+/* Mobile */
+@media (max-width: 575px) {
+    .typography h2 {
+        font-size: 24px;
+    }
+    .typography p {
+        font-size: 14px;
+    }
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+    .task {
+        padding: 10px;
+    }
+    .portfolio-title {
+        font-size: 22px;
+    }
+    .extra-info {
+        display: none;
+    }
+    .menu {
+        flex-direction: column;
+    }
+}
+/* Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
+    .typography h2 {
+        font-size: 30px;
+    }
+    .typography p {
+        font-size: 17px;
+    }
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .task {
+        padding: 15px;
+    }
+    .portfolio-title {
+        font-size: 26px;
+    }
+}
+/* Laptop */
+@media (min-width: 769px) and (max-width: 992px) {
+    .task {
+        padding: 20px;
+    }
+    .portfolio-title {
+        font-size: 28px;
+    }
+}
+/* Desktop */
+@media (min-width: 993px) {
+    .typography h2 {
+        font-size: 36px;
+    }
+    .typography p {
+        font-size: 20px;
+    }
+    .task {
+        padding: 20px;
+    }
+    .portfolio-title {
+        font-size: 30px;
+    }
+}
