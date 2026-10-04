@@ -12,14 +12,12 @@ body {
 .task h1 {
     font-size: 24px;
 }
-/* Task 0 */
 .typography h2 {
     font-size: 36px;
 }
 .typography p {
     font-size: 20px;
 }
-/* Task 1 */
 .boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -31,14 +29,12 @@ body {
     padding: 30px;
     text-align: center;
 }
-/* Task 2 */
 .bootstrap-column {
     background-color: lightgray;
     border: 2px solid black;
     padding: 30px;
     text-align: center;
 }
-/* Task 3 and Task 4 */
 .navbar {
     padding: 10px;
     border: 2px solid black;
@@ -53,7 +49,6 @@ body {
     text-decoration: none;
     color: black;
 }
-/* Task 4 */
 .portfolio-main {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -82,7 +77,6 @@ body {
 .footer p {
     margin: 0;
 }
-/* Mobile */
 @media (max-width: 575px) {
     .typography h2 {
         font-size: 24px;
